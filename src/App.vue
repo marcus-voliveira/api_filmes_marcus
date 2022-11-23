@@ -23,27 +23,43 @@ export default {
 
   <main>
     {{ titulo }}
-    <div>
-      <h2>Destaques</h2>
 
+    <h2>Destaques</h2>
+    <div class="row">
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
     </div>
 
-    <div>
-      <h2>Filmes</h2>
-
+    <h2>Filmes</h2>
+    <div class="row">
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
     </div>
 
-    <div>
-      <h2>Séries</h2>
-
+    <h2>Séries</h2>
+    <div class="row">
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
+      <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
       <img src="./assets/imagem.jpg" alt="filme" />
@@ -62,5 +78,10 @@ img {
   z-index: 2;
   width: 300px;
   margin: 20px;
+}
+
+.row {
+  display: flex;
+  overflow-y: auto;
 }
 </style>
