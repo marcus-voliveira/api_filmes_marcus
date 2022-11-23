@@ -1,7 +1,20 @@
 <script>
 import HeaderView from "./views/HeaderView.vue";
+import FilmesAPI from "@/api/filmes";
+const filmeApi = new FilmesAPI();
 export default {
   components: { HeaderView },
+  props: {
+    filmes: Object,
+    quantidade: {
+      type: Number,
+      default: 4,
+    },
+    titulo: {
+      type: String,
+      default: "",
+    },
+  },
 };
 </script>
 
@@ -9,6 +22,7 @@ export default {
   <HeaderView />
 
   <main>
+    {{ titulo }}
     <div>
       <h2>Destaques</h2>
 
